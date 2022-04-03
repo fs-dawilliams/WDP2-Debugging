@@ -43,7 +43,7 @@ function Women() {
                     searchResults.map((item) => {
                         return (
                             <CardItem 
-                                price={item.price}
+                                price={item.rating.rate}
                                 img={item.image}
                                 title={item.title}
                                 rating={item.rating.rate}

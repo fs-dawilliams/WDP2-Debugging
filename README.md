@@ -31,3 +31,5 @@ https://www.youtube.com/watch?v=nPLx3rSZPXI
 
 # Try this command:
 sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+
+# Remember to check your console for errors as well. Hint! Hint! Hint!

@@ -21,3 +21,10 @@ Here's some additional information about me...
 
 
 eMaill@student.fullsail.edu -- (###) ###-#### 
+
+
+Commons installation error for CSV Tools
+If you get an error "The operation was rejected by your operating system"
+Check out this vido: https://www.youtube.com/watch?v=nPLx3rSZPXI
+Try this command:
+sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
